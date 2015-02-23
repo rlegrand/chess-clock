@@ -1,0 +1,26 @@
+.configBar{
+	height: 100%;
+}
+
+.configBar *{
+	display: inline-block;
+}
+
+.configBar > .left, .configBar > .right{
+	box-shadow: 8px 8px 12px #aaa;
+	width: 40%;
+	margin: 0 10px;
+	padding: 5px;
+}
+
+.clockContainer{
+	width: 100%;
+}
+
+.clockContainer .clock{
+	box-shadow: 1px 1px 12px #555;
+	width: 40%;
+	display: inline-block;
+	margin: 20px 10px;
+	padding: 5px;
+}

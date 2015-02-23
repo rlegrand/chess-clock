@@ -1,0 +1,9 @@
+{
+  "name": "chess-clock",
+  "version": "1.0.0",
+  "main": [],
+  "ignore": [],
+  "dependencies": {
+    "jquery": "2.1.1"
+  }
+}

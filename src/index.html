@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<title>chess clock</title>
+		<!-- build:css styles/main.css --> 
+		<link rel="stylesheet" type="text/css" href="/styles/main.css">
+		<!-- endbuild -->
+	</head>
+	<body>
+
+		<div class="configBar">
+			<div class="left">
+				<form>
+					<label for="minutes">
+						minutes
+					</label>
+					<input type="number" name="minutes" value="5" /> 
+					<label for="seconds">
+						seconds
+					</label>
+					<input type="number" name="seconds" value="0" />
+					<label for="increment">
+						increment
+					</label>
+					<input type="number" name="increment" value="0" />					
+				</form>
+			</div>
+			<div class="right">
+				<form>
+					<label for="minutes">
+						minutes
+					</label>
+					<input type="number" name="minutes" value="5" /> 
+					<label for="seconds">
+						seconds
+					</label>
+					<input type="number" name="seconds" value="0" />
+					<label for="increment">
+						increment
+					</label>
+					<input type="number" name="increment" value="0" />					
+				</form>
+			</div>
+			<button id="save">set</button>		
+		</div>
+
+		<div class="clockContainer">
+			<div class="clock" ><span></span></div>
+			<div class="clock" ><span></span></div>
+		</div>
+
+		<!-- build:libs js/chess-clock.min.js --> 
+		<script type="text/javascript" src="js/ext/jquery/dist/jquery.js"></script>
+		<script type="text/javascript" src="/js/clock.js"></script>
+		<!-- endbuild -->
+	</body>
+</html>
